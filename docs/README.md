@@ -5,3 +5,5 @@ Welcome to the Manual Pages for CCH iFirm Document Manager and One Practice. Ple
 # [OnePractice](OP/README.md)
 
 # [CCH iFirm Document Manager](CCH/README.md)
+
+(c)2021 HubOne Enterprise Pty Ltd
