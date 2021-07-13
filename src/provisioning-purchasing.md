@@ -2,6 +2,8 @@
 
 [Home](introduction.md) | [Provisioning](provisioning.md)
 
+------
+
 Staff are able to immediately license <%PRODUCT_NAME%> for their clients domain. This process will immediately apply a license and allow you to continue.
 
 Once you have done so, you can follow the below instructions which will immediately apply the license and allow you to continue.

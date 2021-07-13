@@ -2,6 +2,8 @@
 
 [Home](introduction.md) | [Provisioning](provisioning.md)
 
+------
+
 The following procedure details how to install <%PRODUCT_NAME%> prerequisites.
 
 | Step | Instructions | Screenshot |
