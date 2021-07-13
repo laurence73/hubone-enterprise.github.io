@@ -34,7 +34,13 @@ jobs:
         run: grep -rli '<%PRODUCT_NAME%>' docs/OP/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/OnePractice/g' @
       - name: Rename CCH
         run: grep -rli '<%PRODUCT_NAME%>' docs/CCH/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/CCH iFirm Document Manager/g' @
-        
+      - name: GitHub Pages
+  # You may pin to the exact commit or the version.
+  # uses: crazy-max/ghaction-github-pages@db4476a01402e1a7ce05f41832040eef16d14925
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+           build_dir: /docs 
+
       
         
 
