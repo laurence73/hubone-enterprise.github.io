@@ -25,17 +25,24 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: greap -rli '<%PRODUCT_NAME%>' * | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/OnePractice/g' @
+
       - name: Copy Files
-        run: cp -R src Docs/CCH
+        run: cp -R src docs/CCH
       - name: Copy OP Files
-        run: cp -R src Docs/OP
+        run: cp -R src docs/OP
       - name: Rename OnePractice
-        run: grep -rli '<%PRODUCT_NAME%>' Docs/OP/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/OnePractice/g' @
+        run: grep -rli '<%PRODUCT_NAME%>' docs/OP/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/OnePractice/g' @
       - name: Rename CCH
-        run: grep -rli '<%PRODUCT_NAME%>' Docs/CCH/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/CCH iFirm Document Manager/g' @
-        
+        run: grep -rli '<%PRODUCT_NAME%>' docs/CCH/* | xargs -i@ sed -i 's/<%PRODUCT_NAME%>/CCH iFirm Document Manager/g' @
+      - name: GitHub Pages
+  # You may pin to the exact commit or the version.
+  # uses: crazy-max/ghaction-github-pages@db4476a01402e1a7ce05f41832040eef16d14925
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+           build_dir: docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       
         
 
