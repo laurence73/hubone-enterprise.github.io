@@ -26,7 +26,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Rename VERSION
-        run: grep -rli '<%VERSION%>' * | xargs -i@ sed -i 's/<%VERSION%>/6.7.0.0/g' @
+        run: grep -rli '<%VERSION%>' * | xargs -i@ sed -i 's/<%VERSION%>/6.7.0.${{ github.run_number }}/g' @
       - name: Copy Files
         run: cp -R src docs/CCH
       - name: Copy OP Files
