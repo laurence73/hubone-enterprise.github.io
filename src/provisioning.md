@@ -68,116 +68,12 @@ The following steps complete the installation of <%PRODUCT_NAME%>.
 
 | Step | Instructions | Screenshot |
 | -- | -- | --: |
-| 1. | Click the Right Arrow at the bottom.
-
-2
-Enter the following Information:
-
-Tenant Admin URL - The Admin Link for the Client's SharePoint Site
-
-Admin User - A Global Admin user login e.g. admin@<designator>.onmicrosoft.com
-
-Admin Password - The user's password
-
-Log File Location - The provisioning tool produces comprehensive logs. Choose a location to store them.
-
-Once complete, click the Right Arrow at the Bottom.
-
-3
-The Provisioning tool will check the Office 365 environment and permissions. Once complete, the next screen will appear.
-
-XERO PRACTICE MANAGER
-Select Xero Practice Manager.
-
-Then click Fetch client key. You will need the client's XPM credentials or complete this part of the process with them.
-A popup will first appear
-Click on Fetch Key
-You will be redirected to the Workflow Max login screen - log in.
-After successful login, you will be redirected to the XPm login screen - login. 
-You'll then be asked to give OnePractice authorisation. Make sure your company name appears in the dropdown and click Authorise.
-From there, it will ask you whether you want to fetch another. You should close this window.
-
-Select your Company location: AU
-(even if you are in New Zealand, you must select AU)
-
-Leave Create client folders in SharePoint ticked.
-
-OTHER PRACTICE MANAGEMENT SYSTEMS
-Select SharePoint.
-
-Using a Live Practice Management System Instance
-Make sure 'sample data' checkbox is not checked.
-
-Testing
-If you just want to experiment, you can mark the 'Add sample data' checkbox.
-XERO PRACTICE MANAGER
-Select Xero Practice Manager.
-
-Then click Fetch client key. You will need the client's XPM credentials or complete this part of the process with them.
-A popup will first appear
-Click on Fetch Key
-You will be redirected to the Workflow Max login screen - log in.
-After successful login, you will be redirected to the XPm login screen - login. 
-You'll then be asked to give <%PRODUCT_NAME%> authorisation. Make sure your company name appears in the dropdown and click Authorise.
-From there, it will ask you whether you want to fetch another. You should close this window.
-
-Select your Company location: AU
-(even if you are in New Zealand, you must select AU)
-
-Leave Create client folders in SharePoint ticked.
-
-OTHER PRACTICE MANAGEMENT SYSTEMS
-Select SharePoint.
-
-Using a Live Practice Management System Instance
-Make sure 'sample data' checkbox is not checked.
-
-Testing
-If you just want to experiment, you can mark the 'Add sample data' checkbox.
-CCH IFIRM
-Select SharePoint.
-
-Using a Live iFirm Instance
-Make sure 'sample data' checkbox is not checked.
-
-Testing
-If you just want to experiment, you can mark the 'Add sample data' checkbox.
-
-Once complete, click the Right Arrow at the bottom. 
-
-
-4
-Accept the defaults for portal URL, Document Center URL and Display Name.
-
-Complete the following:
-
-Configuration  & Skin - Choose the appropriate skin.Choose CCH / Wolters Kluwer.
-
-If you choose CCH / Wolters Kluwer, you will need to enter the CCH iFirm portal URL to the right. (see second screenshot)
-
-Company Specific Settings - Upload the Customer Logo and Change the Helpdesk URL to your company's helpdesk URL. Once done, adjust the time zone.
-
-Metadata - Add any desired Metadata fields.
-
-Common App Settings - leave as default
-
-Once done, click the Right Arrow.
-
-
-
-
-
-5
-The application will commence creating the portal.
-
-6
-The screen to the right will appear. 
-
-Carefully follow the instructions on the screen.
-
-WARNING: Failure to follow the instructions will result in a unsuccessful implementation.
-
-Then click the arrow to the right.
+| 1. | Click the Right Arrow at the bottom. | ![ClickRight](img/clip0032.png) |
+| 2. | Enter the following Information:<br/>**Tenant Admin URL** - The Admin Link for the Client's SharePoint Site<br/>**Admin User** - A Global Admin user login e.g. admin@<designator>.onmicrosoft.com<br/>**Admin Password** - The user's password<br/>**Log File Location** - The provisioning tool produces comprehensive logs. Choose a location to store them.<br/><br/>Once complete, click the Right Arrow at the Bottom. | ![Configure1](img/clip0036.png)| 
+| 3. | The Provisioning tool will check the Office 365 environment and permissions. Once complete, the next screen will appear.<br/>Select SharePoint.<br/>Using a Live Practice Management System Instance<br/>Make sure 'sample data' checkbox is not checked. | ![Provision3](img/clip0037.png) |
+| 4. | Accept the defaults for portal URL, Document Center URL and Display Name.<br/>Complete the following:<br/>**Configuration  & Skin** - Choose the appropriate skin.<br/>**Company Specific Settings** - Upload the Customer Logo and Change the Helpdesk URL to your company's helpdesk URL. Once done, adjust the time zone.<br/>**Metadata** - Add any desired Metadata fields.<br/>**Common App Settings** - leave as default<br/>Once done, click the Right Arrow. | ![Skin](img/configurationskin.JPG) |
+| 5. | The application will commence creating the portal. | ![Provision1](img/clip0039.png) | 
+| 6. | The screen to the right will appear.<br/>Carefully follow the instructions on the screen.<br/>WARNING: Failure to follow the instructions will result in a unsuccessful implementation.<br/>Then click the arrow to the right. | 
 
 7
 The application will continue to configure the environment. 
