@@ -17,9 +17,9 @@ for professional services firms. <%PRODUCT_NAME%> is best used when implemented 
 The various components which make up the <%PRODUCT_NAME%> solution are as follows:
 
 - **[Templates](templates.md)** - An app integrated into SharePoint Online which allows the simple creation of documents from pre-defined Word and Excel templates which integrate data from the end-user and data from an existing practice management solutionCCH iFirm.
-- **[Mail](mail.md)** - An app integrated into Microsoft Exchange and therefore available in Outlook and Outlook Web App, allows the simple saving of email messages and attachments directly into a specific client folder or subfolder. The app also permits the tagging of metadata and provides for automatic prompting of client names based on data from the existing practice management solutionCCH iFirm.
-- Mail Templates - An app integrated in Microsoft Exchange and therefore available in Outlook and Outlook Web App, allows the simple creation of emails from templates with integration of data from the end-user and from an existing practice management solutionCCH iFirm.
-- Scans - A desktop application which automatically files and renames searchable PDF files into the Document Center hosted on SharePoint Online.
+- **[Mail](mail.md)** - An app **integrated** into Microsoft Exchange and therefore available in Outlook and Outlook Web App, allows the simple saving of email messages and attachments directly into a specific client folder or subfolder. The app also permits the tagging of metadata and provides for automatic prompting of client names based on data from the existing practice management solutionCCH iFirm.
+- [Mail Templates](mail-templates.md) - An app integrated in Microsoft Exchange and therefore available in Outlook and Outlook Web App, allows the simple creation of emails from templates with integration of data from the end-user and from an existing practice management solutionCCH iFirm.
+- [Scans](scans.md) - A desktop application which automatically files and renames searchable PDF files into the Document Center hosted on SharePoint Online.
 - **[Provisioning](provisioning.md)** - A desktop application which configures the requirements for the SharePoint environment.
 - **[SharePoint Site](sharepoint-site.md)** - Information on the configuration of Microsoft SharePoint Online required to support <%PRODUCT_NAME%>.
 - **[Metadata](metadata.md)** - Information on how metadata improves the user experience.
