@@ -24,3 +24,5 @@ The various components which make up the <%PRODUCT_NAME%> solution are as follow
 - **[SharePoint Site](sharepoint-site.md)** - Information on the configuration of Microsoft SharePoint Online required to support <%PRODUCT_NAME%>.
 - **[Metadata](metadata.md)** - Information on how metadata improves the user experience.
 - **[Synchronising Data](cchsync.md)** - Configure your instance of <%PRODUCT_NAME%> to synchronise between Xero Practice Manager, Xero Tax or CCH iFirm
+
+- **[Knowledge Base](kb/README.md)** - Support notes and articles

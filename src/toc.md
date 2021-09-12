@@ -3,3 +3,4 @@
 - [Introduction](introduction.md)
 - [Minimum Requirements](minimum-requirements.md)
 - [Provisioning](provisioning.md)
+- [Knowledge Base](kb/README.md)
