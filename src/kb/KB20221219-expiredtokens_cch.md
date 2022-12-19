@@ -4,8 +4,8 @@
 2. Select the correct Document Center from the list of sites if presented
 3. Click Connect CCH
 4. Enter your CCH iFirm URL - usually this is https://<customer>.acclipse.com - replace <customer> with your own company name
-▪ Ignore webhooks for now they don’t appear to work on older tenancies
-▪ Advisable to leave inactive clients disabled as adds unnecessary load on sync
+▪ Ignore webhooks
+▪ Advisable to leave inactive clients disabled as adds unnecessary load on syncCancel changes
 5. You will be re-directed to CCH iFirm permissions form - enter your admin details and allow access to the application
 6. Click Create Sync Schedule
 7. The system will perform a number of tests to make sure the accounts you have used are able to connect succssfully to Office 365 SharePoint and to CCH iFirm
