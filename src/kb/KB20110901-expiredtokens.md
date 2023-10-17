@@ -7,7 +7,7 @@ This requires removal of the existing connection in Xero Practice Manager. Pleas
 4. Click Disconnect on the OnePracticeSync Connection
 
 You are now ready to re-authorisation OnePracticeSync at
-1. Visit this link  [link](https://www.tribetech.com.au/ops) and login with an administrator level 365 account
+1. Visit this [link](https://www.tribetech.com.au/ops) and login with an administrator level 365 account
 2. Select the correct Document Center from the list of sites
 3. Click Connect XPM
 4. Choose the XPM instance to connect to and click Allow Access
